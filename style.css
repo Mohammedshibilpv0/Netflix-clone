@@ -1,0 +1,414 @@
+@font-face {
+    font-family: Netflix;
+    src: url("fonts/NetflixSans-Bold.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: Netflix;
+
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+.container img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* nav bar------------------------------------------------------------------------------------------------------------------------------*/
+.nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.left {
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+
+
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.logo {
+
+    width: 9.25rem;
+    height: 2.5rem;
+    margin-top: 25px;
+    margin-left: 175px;
+
+
+}
+
+.right {
+    background-color: transparent;
+    color: white;
+
+
+    padding-left: 12px;
+    padding-right: 16px;
+    margin-top: 30px;
+    margin-right: 18px;
+    height: 35px;
+
+}
+
+.lang {
+    background-color: transparent;
+    color: white;
+    width: 160px;
+    height: 35px;
+    margin-right: 65px;
+    padding: 6px 36px;
+    border-radius: 3px;
+
+
+
+}
+.lang:active{
+    border: 2px solid white;
+}
+
+.sign {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 12px;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 175px;
+    height: 34px;
+}
+
+/* main bannner --------------------------------------------------------------------------------------------------------*/
+.mainbody {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.title {
+    width: 100%;
+    color: white;
+}
+
+.title h1 {
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: Netflix;
+}
+
+.title h2 {
+    font-family: Netflix;
+}
+
+.mainbody h2 {
+
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.mainbody h3 {
+
+    margin: 30px auto 5px auto;
+    color: white;
+    font-size: 21px;
+    width: 100%;
+}
+
+form input {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 35px;
+    width: 380px;
+    margin-top: 17px;
+    font-size: 24px;
+    padding: 10px;
+
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
+
+form button {
+    height: 58px;
+    width: 200px;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 120px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Email-sign {
+    margin-left: 75px;
+    font-family: Netflix;
+}
+
+/* rows--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.body {
+    height: 580px;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    display: flex;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Netflix;
+    font-weight: 100px;
+    font-size: 1.5rem;
+
+
+}
+
+.sub1 video,
+.sub3 video{
+
+    position: relative;
+    margin-right: 180px;
+    margin-top: 134px;
+}
+.vid1{
+    position: absolute;
+    right: 99px;
+    top: 745px;
+
+}
+.vid2{
+    position: absolute;
+    right: 88px;
+    top: 1992px;
+}
+.sub2 img,
+.sub4 img {
+    height: 434.25px;
+    width: 579px;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+.sub1 h1 {
+
+    font-family: Netflix;
+    font-size: 1.5rem;
+    margin-right: 12px;
+
+}
+
+/* row 1-------------------------------------------------------------------------------------*/
+.row1 h1 {
+
+    margin-right: 50px;
+}
+
+.row1 h4 {
+    margin-bottom: 65px;
+    margin-left: 160px;
+
+}
+
+/* row 2----------------------------------------------------------------------------------------*/
+.row2 h1 {
+
+    margin-right: 150px;
+}
+
+.row2 h4 {
+    margin-bottom: 65px;
+    margin-right: 200px;
+    margin-top: 5px;
+
+}
+
+/* row 3---------------------------------------------------------------------------------------*/
+.row3 h1 {
+
+    margin-right: 15px;
+}
+
+.row3 h4 {
+
+    margin-bottom: 65px;
+    margin-left: 90px;
+}
+
+/* row4------------------------------------------------------------------------------------------*/
+.row4 h1 {
+
+    margin-right: 195px;
+}
+
+.row4 h4 {
+    margin-bottom: 65px;
+    margin-right: 130px;
+}
+
+/* Questions div---------------------------------------------------------------------------------------*/
+.questions {
+    width: 100%;
+    height: 930.4px;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+
+}
+
+.help h2 {
+    font-family: Netflix;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.help button {
+    width: 80%;
+    height: 94px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 10px;
+    border: none;
+    margin-left: 10%;
+    color: white;
+    padding-left: 10px;
+    padding-right: 14px;
+
+
+
+
+}
+
+.help button:hover {
+    cursor: pointer;
+    background-color: rgb(78, 78, 78);
+    transition: 0.3s;
+}
+
+.text {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+
+
+
+}
+
+.fa-plus {
+    float: right;
+    padding-right: 10px;
+}
+
+.Email-sign1 {
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+/*footer-------------------------------------------------------------------------------------------------------------*/
+.last-container {
+    margin-top: 8px;
+    width: 100%;
+    background-color: black;
+    height: 420px;
+    display: flex;
+}
+
+.footer {
+    height: 400px;
+    flex-basis: 80%;
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    padding-left: 55px;
+
+}
+
+
+.foot1,
+.foot2,
+.foot3,
+.foot4 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+    flex-basis: 25%;
+
+    list-style: none;
+
+}
+
+.foot1 li a,
+.foot2 li a,
+.foot3 li a,
+.foot4 li a {
+    color: rgb(255, 255, 255);
+
+
+}
+
+.foot1 li,
+.foot2 li,
+.foot3 li,
+.foot4 li {
+    padding-top: 20px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+
+.button-bottom {
+    margin-top: 40px;
+    margin-left: 12px;
+    background-color: transparent;
+    color: white;
+    width: 160px;
+    height: 35px;
+    background-color: rgb(33, 29, 29);
+    padding: 6px 36px;
+    border-radius: 3px;
+}
